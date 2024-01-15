@@ -1,17 +1,13 @@
-for (let i = 1; i <= 100; i++) {
-    let output = "";
-
-    if (i % 3 === 0) {
-        output += "Fizz";
+let a = +prompt("Nhập 1 số bất kỳ");
+let b = 0;
+for(let i = 0; i < a; i++){
+    b++;
+    if(b*b == a){
+        break;
     }
-
-    if (i % 5 === 0) {
-        output += "Buzz";
-    }
-
-    if (output === "") {
-        output = i;
-    }
-
-    console.log(output);
+}
+if(b*b == a){
+    console.log(a + " " + "là số chính phương.");
+}else{
+    console.log(a + " " + "không phải là số chính phương.");
 }

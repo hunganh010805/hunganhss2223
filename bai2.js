@@ -1,11 +1,10 @@
-let a = +prompt("Nhập một số nguyên dương:");
-
-if (!isNaN(a) && a >= 0) {
-    let result = 1;
-    for (let i = 2; i <= a; i++) {
-        result *= i;
-    }
-    console.log(`Giai thừa của ${a} là ${result}`);
+let a= +prompt('Nhap a')
+let b= +prompt('Nhap b')
+let c= +prompt('Nhap c')
+if(a+b>c&&a+c>b&&b+c>a){
+    console.log('la mot tam giac')
 }else{
-    console.log("Vui lòng nhập một số nguyên dương.");
+    console.log('khong phai tam giac')
 }
+
+

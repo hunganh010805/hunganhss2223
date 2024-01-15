@@ -1,8 +1,7 @@
-let a=+prompt('Nhập a')
-if(a>0) {
-    for(let i=0;i<a;i++) {
-    console.log(i)
-    }
+let a= +prompt('Nhap a')
+let b= +prompt('Nhap b')
+if(a%b==0){
+    console.log(' chia het cho ')
 }else{
-    console.log('nhập số dương')
+    console.log(' khong chia het cho ')
 }
